@@ -1,0 +1,3 @@
+-- TODO: DDL script that recreates the complete schema in DuckDB.
+-- Required deliverable (Task 4). Must enable and use the spatial extension.
+-- To be written by the group.

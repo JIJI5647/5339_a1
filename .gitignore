@@ -1,0 +1,59 @@
+# Secrets (keep the template)
+.env
+.env.*
+!.env.example
+
+# Python bytecode, caches, builds, and test artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+.eggs/
+*.egg
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Generated DuckDB databases and write-ahead logs
+*.duckdb
+*.duckdb.wal
+*.db.wal
+
+# Downloaded and generated data. Keep small documentation/placeholders if added.
+data/raw/**
+data/interim/
+data/processed/
+data/external/
+!data/**/.gitkeep
+!data/**/README.md
+
+# Download archives
+*.zip
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.Rhistory
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
