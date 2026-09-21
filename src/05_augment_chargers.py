@@ -602,7 +602,7 @@ def main(argv=None):
     parser.add_argument("--input", type=Path, default=PROJECT_ROOT / "data/processed/ev_with_sa4.csv")
     parser.add_argument("--cache", type=Path, default=PROJECT_ROOT / "data/external/ocm_au.json")
     parser.add_argument("--external-dir", type=Path, default=PROJECT_ROOT / "data/external")
-    parser.add_argument("--output-dir", type=Path, default=PROJECT_ROOT / "data/processed")
+    parser.add_argument("--output-dir", type=Path, default=PROJECT_ROOT / "data/external")
     parser.add_argument("--refresh", action="store_true", help="Refresh all four external snapshots; needs OCM_API_KEY")
     parser.add_argument("--ocm-only", action="store_true", help="Run the OCM baseline only")
     args = parser.parse_args(argv)

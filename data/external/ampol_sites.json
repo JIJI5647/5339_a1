@@ -1,0 +1,4851 @@
+{
+  "url": "https://digital-api.ampol.com.au/siteservice/Service",
+  "params": {
+    "$filter": "EVFastCharging eq true",
+    "$select": "LocationID,DisplayName,Brand,Latitude,Longitude,Address,Suburb,State,Postcode,EVFastCharging,EVChargingData",
+    "$top": 1000
+  },
+  "source_page": "https://ampcharge.ampol.com.au/find-a-charging-station",
+  "response": {
+    "@odata.context": "https://digital-site-service-prod.tm.ampol.com.au/$metadata#Service(LocationID,DisplayName,Brand,Latitude,Longitude,Address,Suburb,State,Postcode,EVFastCharging,EVChargingData)",
+    "value": [
+      {
+        "LocationID": "0000010009",
+        "DisplayName": "Ampol Foodary Narangba",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Narangba",
+        "Address": "2 Steel Street",
+        "Postcode": "4504",
+        "Longitude": 153.0108996,
+        "Latitude": -27.2026844,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "145 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "145 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000010262",
+        "DisplayName": "Ampol Foodary Sippy Downs",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Sippy Downs",
+        "Address": "227-237 Sippy Downs Drive",
+        "Postcode": "4556",
+        "Longitude": 153.070867,
+        "Latitude": -26.713282,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000010436",
+        "DisplayName": "Ampol Foodary North Lakes",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "North Lakes",
+        "Address": "Cnr Mason & Stapylton Streets",
+        "Postcode": "4509",
+        "Longitude": 153.009544,
+        "Latitude": -27.239211,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011132",
+        "DisplayName": "Ampol Foodary Carseldine",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Carseldine",
+        "Address": "1754 Gympie Rd",
+        "Postcode": "4034",
+        "Longitude": 153.01079,
+        "Latitude": -27.342121,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011137",
+        "DisplayName": "Ampol Foodary Maroochydore",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Maroochydore",
+        "Address": "78-84 Aerodrome Rd Cnr Rose St",
+        "Postcode": "4558",
+        "Longitude": 153.097519,
+        "Latitude": -26.659525,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011141",
+        "DisplayName": "Ampol Foodary Toowong",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Toowong",
+        "Address": "581 Milton Road",
+        "Postcode": "4066",
+        "Longitude": 152.985854,
+        "Latitude": -27.478537,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011166",
+        "DisplayName": "Ampol Foodary Camp Hill",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Camp Hill",
+        "Address": "424 Old Cleveland Rd Cnr Bennetts Rd",
+        "Postcode": "4152",
+        "Longitude": 153.06463,
+        "Latitude": -27.491855,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011254",
+        "DisplayName": "Ampol Foodary Kenmore",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Kenmore",
+        "Address": "888 Moggill Rd Cnr Marshall Lane",
+        "Postcode": "4069",
+        "Longitude": 152.948536,
+        "Latitude": -27.508014,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011299",
+        "DisplayName": "Ampol Foodary North Maclean",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "North Maclean",
+        "Address": "916-918 Greenbank Rd",
+        "Postcode": "4280",
+        "Longitude": 153.01189,
+        "Latitude": -27.77653,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "155 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011361",
+        "DisplayName": "Ampol Foodary Burpengary",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Burpengary",
+        "Address": "9-15 Progress Rd",
+        "Postcode": "4505",
+        "Longitude": 152.976993,
+        "Latitude": -27.156289,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "135 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011363",
+        "DisplayName": "Ampol Foodary Carina",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Carina",
+        "Address": "849 Old Cleveland Rd Cnr Anzac Rd",
+        "Postcode": "4152",
+        "Longitude": 153.093332,
+        "Latitude": -27.495918,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011501",
+        "DisplayName": "Ampol Foodary Woodridge West",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Woodridge West",
+        "Address": "153 Wembley Rd",
+        "Postcode": "4114",
+        "Longitude": 153.1002931,
+        "Latitude": -27.6428333,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011620",
+        "DisplayName": "Ampol Foodary Caboolture Travel Centre",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Caboolture",
+        "Address": "Lot 2 459 Pumicestone Rd",
+        "Postcode": "4510",
+        "Longitude": 152.9753461,
+        "Latitude": -27.0422995,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011781",
+        "DisplayName": "Ampol Foodary Hamilton Kingsford Smith Dve",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Hamilton",
+        "Address": "516 Kingsford Smith Dve",
+        "Postcode": "4007",
+        "Longitude": 153.066896,
+        "Latitude": -27.438527,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011818",
+        "DisplayName": "Ampol Foodary Brassall",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Brassall",
+        "Address": "60 Hunter St",
+        "Postcode": "4305",
+        "Longitude": 152.745912,
+        "Latitude": -27.596377,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011825",
+        "DisplayName": "Ampol Foodary Waterford West",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Waterford West",
+        "Address": "76 Chambers Flat Rd Cnr Mark Lane",
+        "Postcode": "4133",
+        "Longitude": 153.1146269,
+        "Latitude": -27.681484,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011866",
+        "DisplayName": "Ampol Foodary Arana Hills",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Arana Hills",
+        "Address": "282 Dawson Pde Cnr Nepean Rd",
+        "Postcode": "4054",
+        "Longitude": 152.9607497,
+        "Latitude": -27.3969124,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011882",
+        "DisplayName": "Ampol Foodary Reedy Creek",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Reedy Creek",
+        "Address": "Pacific Highway North Bound",
+        "Postcode": "4228",
+        "Longitude": 153.391365,
+        "Latitude": -28.093396,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000011950",
+        "DisplayName": "Ampol Foodary Richlands",
+        "Brand": "The Foodary",
+        "State": "QLD",
+        "Suburb": "Richlands",
+        "Address": "209 Progress Rd Cnr Garden Rd",
+        "Postcode": "4077",
+        "Longitude": 152.949546,
+        "Latitude": -27.597187,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "135 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000015101",
+        "DisplayName": "AmpCharge Kawana Shoppingworld",
+        "Brand": "Ampcharge",
+        "State": "QLD",
+        "Suburb": "Buddina",
+        "Address": "119 Point Cartwright Dr",
+        "Postcode": "4575",
+        "Longitude": 153.13124961,
+        "Latitude": -26.7043232,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000015120",
+        "DisplayName": "AmpCharge Providence Town Centre",
+        "Brand": "Ampcharge",
+        "State": "QLD",
+        "Suburb": "South Ripley",
+        "Address": "7004 Barrams Rd",
+        "Postcode": "4306",
+        "Longitude": 152.817671,
+        "Latitude": -27.694456,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000015121",
+        "DisplayName": "AmpCharge Carseldine Village",
+        "Brand": "Ampcharge",
+        "State": "QLD",
+        "Suburb": "Carseldine",
+        "Address": "520 Beams Road",
+        "Postcode": "4034",
+        "Longitude": 153.025969,
+        "Latitude": -27.348354,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000020040",
+        "DisplayName": "Ampol Foodary Kirrawee",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Kirrawee",
+        "Address": "487 Princes Hwy",
+        "Postcode": "2232",
+        "Longitude": 151.080724,
+        "Latitude": -34.029362,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022015",
+        "DisplayName": "Ampol Foodary Morisset",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Morisset",
+        "Address": "11 Gateway Boulevard",
+        "Postcode": "2264",
+        "Longitude": 151.471337,
+        "Latitude": -33.1168943,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022120",
+        "DisplayName": "Ampol Foodary Narrabeen",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Narrabeen",
+        "Address": "1509-1511 Pittwater Rd",
+        "Postcode": "2101",
+        "Longitude": 151.2970501,
+        "Latitude": -33.704667,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022128",
+        "DisplayName": "Ampol Foodary Wollongong North",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Wollongong North",
+        "Address": "9 Flinders St",
+        "Postcode": "2500",
+        "Longitude": 150.893267,
+        "Latitude": -34.415022,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022135",
+        "DisplayName": "Ampol Foodary Alexandria",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Alexandria",
+        "Address": "133 Wyndham St Cnr Mcevoy St",
+        "Postcode": "2015",
+        "Longitude": 151.1994031,
+        "Latitude": -33.9021424,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022136",
+        "DisplayName": "Ampol Foodary Seven Hills Station Rd",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Seven Hills",
+        "Address": "105 Station Rd Cnr Powers Rd",
+        "Postcode": "2147",
+        "Longitude": 150.9448021,
+        "Latitude": -33.7744585,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022256",
+        "DisplayName": "Ampol Foodary Brownsville",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Brownsville",
+        "Address": "342 Kanahooka Rd",
+        "Postcode": "2530",
+        "Longitude": 150.8063375,
+        "Latitude": -34.4858978,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022276",
+        "DisplayName": "Ampol Foodary Lakemba",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Lakemba",
+        "Address": "516 Punchbowl Rd Cnr Wangee Rd",
+        "Postcode": "2195",
+        "Longitude": 151.0732469,
+        "Latitude": -33.911492,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022344",
+        "DisplayName": "Ampol Foodary Marsden Park",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Marsden Park",
+        "Address": "875 Richmond Rd",
+        "Postcode": "2765",
+        "Longitude": 150.84571801,
+        "Latitude": -33.716122,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "165 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022382",
+        "DisplayName": "Ampol Foodary Ambarvale",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Ambarvale",
+        "Address": "37 Woodhouse Dr Cnr Wickfield St",
+        "Postcode": "2560",
+        "Longitude": 150.8019652,
+        "Latitude": -34.0841943,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022397",
+        "DisplayName": "Ampol Foodary Moorebank",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Moorebank",
+        "Address": "216 Newbridge Rd",
+        "Postcode": "2170",
+        "Longitude": 150.9552485,
+        "Latitude": -33.9292799,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022427",
+        "DisplayName": "Ampol Foodary Northmead",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Northmead",
+        "Address": "98-100 Windsor Rd Cnr Lombard Rd",
+        "Postcode": "2152",
+        "Longitude": 150.994699,
+        "Latitude": -33.787927,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022453",
+        "DisplayName": "Ampol Foodary Lilli Pilli",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Caringbah South",
+        "Address": "477-481 Port Hacking Rd",
+        "Postcode": "2229",
+        "Longitude": 151.1215625,
+        "Latitude": -34.0524306,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022545",
+        "DisplayName": "Ampol Foodary Hazelbrook",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Hazelbrook",
+        "Address": "198 Great Western Highway",
+        "Postcode": "2779",
+        "Longitude": 150.451479,
+        "Latitude": -33.720836,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022582",
+        "DisplayName": "Ampol Foodary Gosford West (Eastbound)",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Gosford West",
+        "Address": "69-71 Central Coast Hwy",
+        "Postcode": "2250",
+        "Longitude": 151.321276,
+        "Latitude": -33.427473,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "165 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022708",
+        "DisplayName": "Ampol Foodary North Ryde",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "North Ryde",
+        "Address": "41-43 Epping Rd Cnr Wicks Rd",
+        "Postcode": "2113",
+        "Longitude": 151.131256,
+        "Latitude": -33.791512,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022761",
+        "DisplayName": "Ampol Foodary Narellan",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Narellan",
+        "Address": "Narellan Rd Cnr Maxwell Pl",
+        "Postcode": "2567",
+        "Longitude": 150.743272,
+        "Latitude": -34.039712,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022794",
+        "DisplayName": "Ampol Foodary Greenacre",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Greenacre",
+        "Address": "87-91 Roberts Rd Cnr Moondo St",
+        "Postcode": "2190",
+        "Longitude": 151.0645866,
+        "Latitude": -33.9047219,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022810",
+        "DisplayName": "Ampol Foodary Waitara",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Waitara",
+        "Address": "59-61 Pacific Hwy Cnr Unwin Rd",
+        "Postcode": "2077",
+        "Longitude": 151.1025,
+        "Latitude": -33.7105,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022895",
+        "DisplayName": "Ampol Foodary St Ives",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "St Ives",
+        "Address": "164 Mona Vale Rd",
+        "Postcode": "2075",
+        "Longitude": 151.157051,
+        "Latitude": -33.730783,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000022906",
+        "DisplayName": "Ampol Foodary Penrith Coreen Ave",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Penrith",
+        "Address": "153 Coreen Ave Cnr Castlereagh Rd",
+        "Postcode": "2750",
+        "Longitude": 150.692728,
+        "Latitude": -33.7429406,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000023205",
+        "DisplayName": "Ampol Foodary Pheasants Nest Southbound",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Pheasants Nest",
+        "Address": "Lot 12 Hume Hwy",
+        "Postcode": "2574",
+        "Longitude": 150.64048,
+        "Latitude": -34.281416,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000023220",
+        "DisplayName": "Ampol Foodary Pheasants Nest Northbound",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Pheasants Nest",
+        "Address": "Lots 1 & 2 Hume Hwy",
+        "Postcode": "2574",
+        "Longitude": 150.636357,
+        "Latitude": -34.283193,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025102",
+        "DisplayName": "AmpCharge Bateau Bay Square Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Bateau Bay",
+        "Address": "12 Bay Village Rd",
+        "Postcode": "2261",
+        "Longitude": 151.472792,
+        "Latitude": -33.372778,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "260 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025106",
+        "DisplayName": "AmpCharge South Eveleigh Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Eveleigh",
+        "Address": "2 Central Ave",
+        "Postcode": "2015",
+        "Longitude": 151.196518,
+        "Latitude": -33.895782,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025107",
+        "DisplayName": "AmpCharge East Village Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Zetland",
+        "Address": "4 Defries Ave",
+        "Postcode": "2017",
+        "Longitude": 151.212699,
+        "Latitude": -33.905613,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025108",
+        "DisplayName": "AmpCharge Broadway Sydney Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Glebe",
+        "Address": "1 Bay St",
+        "Postcode": "2037",
+        "Longitude": 151.19444,
+        "Latitude": -33.88278,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025113",
+        "DisplayName": "AmpCharge Forster Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Forster",
+        "Address": "3 Breese Parade",
+        "Postcode": "2428",
+        "Longitude": 152.520145,
+        "Latitude": -32.200201,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025115",
+        "DisplayName": "AmpCharge Green Hills Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "East Maitland",
+        "Address": "1 Molly Morgan Drive",
+        "Postcode": "2323",
+        "Longitude": 151.592457,
+        "Latitude": -32.761919,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "173 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "173 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "11",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "199 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025116",
+        "DisplayName": "AmpCharge Merrylands Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Merrylands",
+        "Address": "1 Mcfarlane St",
+        "Postcode": "2160",
+        "Longitude": 150.98796,
+        "Latitude": -33.834497,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025118",
+        "DisplayName": "AmpCharge Shellharbour Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Shellharbour City Centre",
+        "Address": "211 Lake Entrance Rd",
+        "Postcode": "2529",
+        "Longitude": 150.839556,
+        "Latitude": -34.562422,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025120",
+        "DisplayName": "AmpCharge Gungahlin Village Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "ACT",
+        "Suburb": "Gungahlin",
+        "Address": "46-50 Hibberson Street",
+        "Postcode": "2912",
+        "Longitude": 149.135182,
+        "Latitude": -35.18682,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025122",
+        "DisplayName": "AmpCharge Kellyville Village",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Kellyville",
+        "Address": "90 Wrights Road",
+        "Postcode": "2155",
+        "Longitude": 150.97242722,
+        "Latitude": -33.71369556,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025123",
+        "DisplayName": "AmpCharge Kincumber Village",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Kincumber",
+        "Address": "Avoca Drive",
+        "Postcode": "2251",
+        "Longitude": 151.382523,
+        "Latitude": -33.46751,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025125",
+        "DisplayName": "AmpCharge Southgate Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Sylvania",
+        "Address": "124 Princes Highway",
+        "Postcode": "2224",
+        "Longitude": 151.103872,
+        "Latitude": -34.010085,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "180 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025126",
+        "DisplayName": "AmpCharge The Ponds Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "The Ponds",
+        "Address": "Riverbank Drive",
+        "Postcode": "2769",
+        "Longitude": 150.91089208,
+        "Latitude": -33.70607392,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025129",
+        "DisplayName": "AmpCharge Castle Towers Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Castle Hill",
+        "Address": "6-14 Castle St",
+        "Postcode": "2154",
+        "Longitude": 151.00636522,
+        "Latitude": -33.72893689,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025131",
+        "DisplayName": "AmpCharge Ecq Outlet",
+        "Brand": "Ampcharge",
+        "State": "NSW",
+        "Suburb": "Rooty Hill",
+        "Address": "Rooty Hill Road South",
+        "Postcode": "2766",
+        "Longitude": 150.85343,
+        "Latitude": -33.781638,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000025567",
+        "DisplayName": "Ampol Foodary Windsor South",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Windsor South",
+        "Address": "741 George St",
+        "Postcode": "2756",
+        "Longitude": 150.7839337,
+        "Latitude": -33.6389352,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028491",
+        "DisplayName": "Ampol Foodary Edmondson Park",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Edmondson Park",
+        "Address": "2072 Camden Valley Way",
+        "Postcode": "2174",
+        "Longitude": 150.86491,
+        "Latitude": -33.9566724,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028569",
+        "DisplayName": "Ampol Foodary Werrington",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Werrington",
+        "Address": "Cnr Dunheved Rd & Henry Lawson Dr",
+        "Postcode": "2747",
+        "Longitude": 150.741075,
+        "Latitude": -33.745872,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028576",
+        "DisplayName": "Ampol Foodary Eastern Creek Eastbound",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Eastern Creek",
+        "Address": "M4 Motorway Eastbound",
+        "Postcode": "2766",
+        "Longitude": 150.8859746,
+        "Latitude": -33.8016783,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "2",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "2",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "300 kW",
+            "ChargerModel": "HYC300",
+            "ChargerModelDesc": "Hypercharger HYC300"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028577",
+        "DisplayName": "Ampol Foodary Eastern Creek Westbound",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Eastern Creek",
+        "Address": "M4 Motorway Westbound",
+        "Postcode": "2766",
+        "Longitude": 150.880213,
+        "Latitude": -33.802145,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "360 kW",
+            "ChargerModel": "T360",
+            "ChargerModelDesc": "ABB Terra 360"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "400 kW",
+            "ChargerModel": "A400",
+            "ChargerModelDesc": "ABB A400"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "400 kW",
+            "ChargerModel": "A400",
+            "ChargerModelDesc": "ABB A400"
+          },
+          {
+            "ChargingBayNo": "09",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "400 kW",
+            "ChargerModel": "A400",
+            "ChargerModelDesc": "ABB A400"
+          },
+          {
+            "ChargingBayNo": "10",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "400 kW",
+            "ChargerModel": "A400",
+            "ChargerModelDesc": "ABB A400"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028593",
+        "DisplayName": "Ampol Foodary Wyong M1 Northbound Petrol",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Wyong",
+        "Address": "M1 Northbound",
+        "Postcode": "2259",
+        "Longitude": 151.402194,
+        "Latitude": -33.255861,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Skyhook200",
+            "ChargerModelDesc": "Kwetta Skyhook 200kW"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028780",
+        "DisplayName": "Ampol Foodary Dural",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Dural",
+        "Address": "917-923 Old Northern Rd",
+        "Postcode": "2158",
+        "Longitude": 151.028425,
+        "Latitude": -33.682886,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028791",
+        "DisplayName": "Ampol Foodary Lane Cove West",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Lane Cove West",
+        "Address": "237-245 Burns Bay Rd",
+        "Postcode": "2066",
+        "Longitude": 151.151386,
+        "Latitude": -33.816521,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028820",
+        "DisplayName": "Ampol Foodary Charmhaven",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Charmhaven",
+        "Address": "13-15 Pacific Hwy Cnr Costa Ave",
+        "Postcode": "2263",
+        "Longitude": 151.509153,
+        "Latitude": -33.216578,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000028974",
+        "DisplayName": "Ampol Foodary Glenbrook",
+        "Brand": "The Foodary",
+        "State": "NSW",
+        "Suburb": "Glenbrook",
+        "Address": "78 Great Western Hwy Cnr Ross St",
+        "Postcode": "2773",
+        "Longitude": 150.6214785,
+        "Latitude": -33.7653789,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000030027",
+        "DisplayName": "Ampol Foodary Altona North",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Altona North",
+        "Address": "1 Horsburgh Drive",
+        "Postcode": "3025",
+        "Longitude": 144.808916,
+        "Latitude": -37.84644,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000030035",
+        "DisplayName": "Ampol Foodary Winchelsea",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Winchelsea",
+        "Address": "2931-2935 Princes Hwy",
+        "Postcode": "3241",
+        "Longitude": 143.983375,
+        "Latitude": -38.245741,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000033239",
+        "DisplayName": "Ampol Foodary Hawthorn",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Hawthorn East",
+        "Address": "73 Camberwell Rd",
+        "Postcode": "3123",
+        "Longitude": 145.051831,
+        "Latitude": -37.826769,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000033360",
+        "DisplayName": "Ampol Foodary Derrimut",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Derrimut",
+        "Address": "354A Robinsons Rd",
+        "Postcode": "3026",
+        "Longitude": 144.7525843,
+        "Latitude": -37.8045902,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000033732",
+        "DisplayName": "Ampol Foodary Rowville",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Rowville",
+        "Address": "940 Stud Road Cnr Kingsley Close",
+        "Postcode": "3178",
+        "Longitude": 145.236443,
+        "Latitude": -37.907761,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000033867",
+        "DisplayName": "Ampol Foodary Hillside",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Hillside",
+        "Address": "575 Melton Hwy",
+        "Postcode": "3037",
+        "Longitude": 144.755807,
+        "Latitude": -37.693967,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035100",
+        "DisplayName": "AmpCharge Moonee Ponds Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Moonee Ponds",
+        "Address": "14-16 Hall St",
+        "Postcode": "3039",
+        "Longitude": 144.923798,
+        "Latitude": -37.765822,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035101",
+        "DisplayName": "AmpCharge Point Cook Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Point Cook",
+        "Address": "Cnr Lawler St & Murnong St",
+        "Postcode": "3030",
+        "Longitude": 144.737035,
+        "Latitude": -37.883088,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035103",
+        "DisplayName": "AmpCharge Mill Park EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Mill Park",
+        "Address": "377 Plenty Rd Btwn Childs & Centenary",
+        "Postcode": "3082",
+        "Longitude": 145.073334,
+        "Latitude": -37.659783,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035104",
+        "DisplayName": "AmpCharge Barkly Square Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Brunswick",
+        "Address": "90-106 Sydney Road",
+        "Postcode": "3056",
+        "Longitude": 144.96357,
+        "Latitude": -37.776208,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "115 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035105",
+        "DisplayName": "AmpCharge Keysborough EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Keysborough",
+        "Address": "248 Cheltenham Rd",
+        "Postcode": "3173",
+        "Longitude": 145.182472,
+        "Latitude": -37.995246,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035106",
+        "DisplayName": "AmpCharge Werribee Cherry St EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Werribee",
+        "Address": "45 Cherry St",
+        "Postcode": "3030",
+        "Longitude": 144.665019,
+        "Latitude": -37.900018,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035110",
+        "DisplayName": "AmpCharge Karingal Hub",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Frankston",
+        "Address": "Cranbourne Road",
+        "Postcode": "3199",
+        "Longitude": 145.165833,
+        "Latitude": -38.151566,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035116",
+        "DisplayName": "AmpCharge Waurn Ponds Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Grovedale",
+        "Address": "Pioneer Road",
+        "Postcode": "3216",
+        "Longitude": 144.316922,
+        "Latitude": -38.199149,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "160 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035118",
+        "DisplayName": "AmpCharge Sandown EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Springvale",
+        "Address": "754-768 Princes Hwy",
+        "Postcode": "3171",
+        "Longitude": 145.166686,
+        "Latitude": -37.941682,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035119",
+        "DisplayName": "AmpCharge Eastland Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Ringwood",
+        "Address": "175 Maroondah Hwy",
+        "Postcode": "3134",
+        "Longitude": 145.23054,
+        "Latitude": -37.813971,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "200 kW",
+            "ChargerModel": "Kpower",
+            "ChargerModelDesc": "Kempower"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035120",
+        "DisplayName": "AmpCharge Watergardens Shopping Centre",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Taylors Lakes",
+        "Address": "399 Melton Hwy",
+        "Postcode": "3038",
+        "Longitude": 144.77719,
+        "Latitude": -37.7022,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035121",
+        "DisplayName": "AmpCharge Mambourin Marketplace",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Mambourin",
+        "Address": "72 Koodya Street",
+        "Postcode": "3024",
+        "Longitude": 144.599895,
+        "Latitude": -37.896561,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035136",
+        "DisplayName": "AmpCharge Dandenong EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Dandenong",
+        "Address": "154-156 Princes Hwy",
+        "Postcode": "3175",
+        "Longitude": 145.2036412,
+        "Latitude": -37.9747467,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035137",
+        "DisplayName": "AmpCharge Mentone EV Charging",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Mentone",
+        "Address": "53-77 Balcombe Rd Cnr Station St",
+        "Postcode": "3194",
+        "Longitude": 145.066158,
+        "Latitude": -37.981726,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "150 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000035139",
+        "DisplayName": "AmpCharge Showgrounds Village",
+        "Brand": "Ampcharge",
+        "State": "VIC",
+        "Suburb": "Ascot Vale",
+        "Address": "320-380 Epsom Road",
+        "Postcode": "3032",
+        "Longitude": 144.9159165,
+        "Latitude": -37.78205997,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "03",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "04",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "05",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "06",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "07",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          },
+          {
+            "ChargingBayNo": "08",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "170 kW",
+            "ChargerModel": "HYC200",
+            "ChargerModelDesc": "Alpitronic HYC200"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000037091",
+        "DisplayName": "Ampol Foodary Cheltenham",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Cheltenham",
+        "Address": "299 Charman Rd",
+        "Postcode": "3192",
+        "Longitude": 145.055489,
+        "Latitude": -37.965193,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "130 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000037185",
+        "DisplayName": "Ampol Foodary Sandringham",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Sandringham",
+        "Address": "73 Beach Rd",
+        "Postcode": "3191",
+        "Longitude": 145.001346,
+        "Latitude": -37.944208,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000037195",
+        "DisplayName": "Ampol Foodary Kilsyth",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Kilsyth",
+        "Address": "Canterbury Rd Cnr Gatwick Rd",
+        "Postcode": "3137",
+        "Longitude": 145.295833,
+        "Latitude": -37.82326,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000037206",
+        "DisplayName": "Ampol Foodary Mount Waverley",
+        "Brand": "The Foodary",
+        "State": "VIC",
+        "Suburb": "Mount Waverley",
+        "Address": "622-626 Blackburn Road",
+        "Postcode": "3149",
+        "Longitude": 145.1434875,
+        "Latitude": -37.9009862,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "140 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "125 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000050302",
+        "DisplayName": "Ampol Foodary Warnbro",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Warnbro",
+        "Address": "301 Warnbro Sound Ave & Bristol St",
+        "Postcode": "6169",
+        "Longitude": 115.758838,
+        "Latitude": -32.329005,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "90 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "90 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055142",
+        "DisplayName": "Ampol Foodary Belmont",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Belmont",
+        "Address": "303 Great Eastern Highway",
+        "Postcode": "6104",
+        "Longitude": 115.93320722,
+        "Latitude": -31.93733426,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "120 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055161",
+        "DisplayName": "Ampol Foodary East Perth",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "East Perth",
+        "Address": "157 Lord Street",
+        "Postcode": "6000",
+        "Longitude": 115.869852,
+        "Latitude": -31.948609,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055177",
+        "DisplayName": "Ampol Foodary Stratton",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Stratton",
+        "Address": "240 Toodyay Rd Cnr Farrall Rd",
+        "Postcode": "6056",
+        "Longitude": 116.03286318,
+        "Latitude": -31.8656689,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055374",
+        "DisplayName": "Ampol Foodary North Yunderup",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Yunderup",
+        "Address": "868 Pinjarra Rd",
+        "Postcode": "6208",
+        "Longitude": 115.7984995,
+        "Latitude": -32.5671769,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "85 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055401",
+        "DisplayName": "Ampol Foodary Ashby",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Ashby",
+        "Address": "2 Hollosy Way Cnr Pinjar Rd",
+        "Postcode": "6065",
+        "Longitude": 115.8042021,
+        "Latitude": -31.7323898,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "100 kW",
+            "ChargerModel": "HYC150",
+            "ChargerModelDesc": "Hypercharger HYC150"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055412",
+        "DisplayName": "Ampol Foodary Baldivis",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Baldivis",
+        "Address": "Safety Bay Rd Cnr Baldivis Rd",
+        "Postcode": "6171",
+        "Longitude": 115.820871,
+        "Latitude": -32.330731,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055443",
+        "DisplayName": "Ampol Foodary Gosnells",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Gosnells",
+        "Address": "158 Corfield St Cnr Stalker Rd",
+        "Postcode": "6110",
+        "Longitude": 115.9880367,
+        "Latitude": -32.0798482,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055467",
+        "DisplayName": "Ampol Foodary Melville",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Melville",
+        "Address": "587 Canning Hwy",
+        "Postcode": "6156",
+        "Longitude": 115.815134,
+        "Latitude": -32.031417,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055590",
+        "DisplayName": "Ampol Foodary Clarkson",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Clarkson",
+        "Address": "7 Ocean Keys Bvd",
+        "Postcode": "6030",
+        "Longitude": 115.715386,
+        "Latitude": -31.689487,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      },
+      {
+        "LocationID": "0000055672",
+        "DisplayName": "Ampol Foodary Cannington",
+        "Brand": "The Foodary",
+        "State": "WA",
+        "Suburb": "Cannington",
+        "Address": "1346 Albany Highway",
+        "Postcode": "6107",
+        "Longitude": 115.935,
+        "Latitude": -32.017524,
+        "EVFastCharging": true,
+        "EVChargingData": [
+          {
+            "ChargingBayNo": "01",
+            "PlugNo": "1",
+            "EVPlugType": "CCS 2",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          },
+          {
+            "ChargingBayNo": "02",
+            "PlugNo": "1",
+            "EVPlugType": "CHAdeMO",
+            "MaxPowerOut": "110 kW",
+            "ChargerModel": "Terra 184",
+            "ChargerModelDesc": "ABB Terra 184"
+          }
+        ]
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-09-21T05:21:30.731256+00:00"
+}

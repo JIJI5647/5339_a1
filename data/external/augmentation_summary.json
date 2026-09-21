@@ -1,0 +1,219 @@
+{
+  "input_records": 1958,
+  "dc_records": 433,
+  "augmented_dc_records": 216,
+  "record_coverage_percent": 49.88,
+  "dc_location_coordinate_groups": 430,
+  "augmented_location_coordinate_groups": 216,
+  "location_coverage_percent": 50.23,
+  "target_met": true,
+  "coverage_definition": "DC coordinate groups with at least one accepted site match and a non-empty new site attribute; union across sources.",
+  "location_definition": "Coordinates rounded to 6 decimals; proxy for physical locations, with no denominator reduction.",
+  "counted_new_attributes": [
+    "external_dc_plug_types",
+    "external_usage_cost_text",
+    "external_access_type",
+    "external_bay_count"
+  ],
+  "source_priority": [
+    "evie",
+    "ampol",
+    "ocm",
+    "osm"
+  ],
+  "sources": {
+    "evie": {
+      "input_records": 1958,
+      "dc_records": 433,
+      "augmented_dc_records": 67,
+      "dc_location_coordinate_groups": 430,
+      "augmented_location_coordinate_groups": 67,
+      "location_coverage_percent": 15.58,
+      "target_met": false,
+      "status_counts": {
+        "unmatched": 306,
+        "matched": 67,
+        "review_identity": 33,
+        "review_shared_external": 26,
+        "review_ambiguous": 1
+      },
+      "location_definition": "Coordinates rounded to 6 decimal places; a location proxy, not verified unique physical sites.",
+      "coverage_definition": "Unique coordinate groups with at least one accepted DC record receiving a non-empty new attribute.",
+      "counted_new_attributes": [
+        "external_dc_plug_types",
+        "external_usage_cost_text",
+        "external_access_type",
+        "external_bay_count"
+      ],
+      "matching_rules": {
+        "max_distance_m": 150.0,
+        "exact_address_max_distance_m": 500.0,
+        "close_distance_m": 30.0,
+        "address_jaccard_min": 0.5,
+        "name_similarity_min": 0.8,
+        "operator_must_match": true,
+        "postcode_conflicts_block_match": true,
+        "exact_address_fallback": "Identical ordered complete address with street number and postcode; matching postcode fields; cannot displace a primary nearby match."
+      },
+      "limitations": [
+        "Automatic matches need spot checks; thresholds are not identity guarantees.",
+        "No fuzzy merging of source locations; inspect nearby and shared-coordinate records.",
+        "External data is retrieved now, not a reconstruction of December 2025.",
+        "UsageCost is unparsed source text, not a comparable numeric tariff.",
+        "Unknown DC current types are excluded; true coverage may be underestimated."
+      ],
+      "retrieved_at_utc": "2026-09-21T05:21:28.953057+00:00",
+      "cache_file": "/Users/mingjiezhang/learning/5339/assignment1/data/external/evie_sites.json",
+      "cache_sha256": "94e6779d54eb47e183fb0f011202d237a196dde54bb4203ff1346f1c11251156",
+      "external_dc_sites": 353
+    },
+    "ampol": {
+      "input_records": 1958,
+      "dc_records": 433,
+      "augmented_dc_records": 28,
+      "dc_location_coordinate_groups": 430,
+      "augmented_location_coordinate_groups": 28,
+      "location_coverage_percent": 6.51,
+      "target_met": false,
+      "status_counts": {
+        "unmatched": 396,
+        "matched": 28,
+        "review_identity": 7,
+        "review_shared_external": 2
+      },
+      "location_definition": "Coordinates rounded to 6 decimal places; a location proxy, not verified unique physical sites.",
+      "coverage_definition": "Unique coordinate groups with at least one accepted DC record receiving a non-empty new attribute.",
+      "counted_new_attributes": [
+        "external_dc_plug_types",
+        "external_usage_cost_text",
+        "external_access_type",
+        "external_bay_count"
+      ],
+      "matching_rules": {
+        "max_distance_m": 150.0,
+        "exact_address_max_distance_m": 500.0,
+        "close_distance_m": 30.0,
+        "address_jaccard_min": 0.5,
+        "name_similarity_min": 0.8,
+        "operator_must_match": true,
+        "postcode_conflicts_block_match": true,
+        "exact_address_fallback": "Identical ordered complete address with street number and postcode; matching postcode fields; cannot displace a primary nearby match."
+      },
+      "limitations": [
+        "Automatic matches need spot checks; thresholds are not identity guarantees.",
+        "No fuzzy merging of source locations; inspect nearby and shared-coordinate records.",
+        "External data is retrieved now, not a reconstruction of December 2025.",
+        "UsageCost is unparsed source text, not a comparable numeric tariff.",
+        "Unknown DC current types are excluded; true coverage may be underestimated."
+      ],
+      "retrieved_at_utc": "2026-09-21T05:21:30.731256+00:00",
+      "cache_file": "/Users/mingjiezhang/learning/5339/assignment1/data/external/ampol_sites.json",
+      "cache_sha256": "951c447cf827e8342de03e3dd042c5b05994a2036aa90fee84451de847e6b4a0",
+      "external_dc_sites": 106
+    },
+    "ocm": {
+      "input_records": 1958,
+      "dc_records": 433,
+      "augmented_dc_records": 117,
+      "dc_location_coordinate_groups": 430,
+      "augmented_location_coordinate_groups": 117,
+      "location_coverage_percent": 27.21,
+      "target_met": false,
+      "status_counts": {
+        "unmatched": 228,
+        "matched": 117,
+        "review_identity": 81,
+        "review_shared_external": 7
+      },
+      "location_definition": "Coordinates rounded to 6 decimal places; a location proxy, not verified unique physical sites.",
+      "coverage_definition": "Unique coordinate groups with at least one accepted DC record receiving a non-empty new attribute.",
+      "counted_new_attributes": [
+        "external_dc_plug_types",
+        "external_usage_cost_text",
+        "external_access_type",
+        "external_bay_count"
+      ],
+      "matching_rules": {
+        "max_distance_m": 150.0,
+        "exact_address_max_distance_m": 500.0,
+        "close_distance_m": 30.0,
+        "address_jaccard_min": 0.5,
+        "name_similarity_min": 0.8,
+        "operator_must_match": true,
+        "postcode_conflicts_block_match": true,
+        "exact_address_fallback": "Identical ordered complete address with street number and postcode; matching postcode fields; cannot displace a primary nearby match."
+      },
+      "limitations": [
+        "Automatic matches need spot checks; thresholds are not identity guarantees.",
+        "No fuzzy merging of source locations; inspect nearby and shared-coordinate records.",
+        "External data is retrieved now, not a reconstruction of December 2025.",
+        "UsageCost is unparsed source text, not a comparable numeric tariff.",
+        "Unknown DC current types are excluded; true coverage may be underestimated."
+      ],
+      "retrieved_at_utc": "2026-09-21T05:21:27.454805+00:00",
+      "cache_file": "/Users/mingjiezhang/learning/5339/assignment1/data/external/ocm_au.json",
+      "cache_sha256": "e193e36387985155355e0774a14f7db26e9558418206a5984b23b8092e897bbe",
+      "external_dc_sites": 822
+    },
+    "osm": {
+      "input_records": 1958,
+      "dc_records": 433,
+      "augmented_dc_records": 108,
+      "dc_location_coordinate_groups": 430,
+      "augmented_location_coordinate_groups": 108,
+      "location_coverage_percent": 25.12,
+      "target_met": false,
+      "status_counts": {
+        "unmatched": 202,
+        "review_identity": 115,
+        "matched": 108,
+        "review_shared_external": 6,
+        "review_ambiguous": 2
+      },
+      "location_definition": "Coordinates rounded to 6 decimal places; a location proxy, not verified unique physical sites.",
+      "coverage_definition": "Unique coordinate groups with at least one accepted DC record receiving a non-empty new attribute.",
+      "counted_new_attributes": [
+        "external_dc_plug_types",
+        "external_usage_cost_text",
+        "external_access_type",
+        "external_bay_count"
+      ],
+      "matching_rules": {
+        "max_distance_m": 150.0,
+        "exact_address_max_distance_m": 500.0,
+        "close_distance_m": 30.0,
+        "address_jaccard_min": 0.5,
+        "name_similarity_min": 0.8,
+        "operator_must_match": true,
+        "postcode_conflicts_block_match": true,
+        "exact_address_fallback": "Identical ordered complete address with street number and postcode; matching postcode fields; cannot displace a primary nearby match."
+      },
+      "limitations": [
+        "Automatic matches need spot checks; thresholds are not identity guarantees.",
+        "No fuzzy merging of source locations; inspect nearby and shared-coordinate records.",
+        "External data is retrieved now, not a reconstruction of December 2025.",
+        "UsageCost is unparsed source text, not a comparable numeric tariff.",
+        "Unknown DC current types are excluded; true coverage may be underestimated."
+      ],
+      "retrieved_at_utc": "2026-09-21T05:21:44.486116+00:00",
+      "cache_file": "/Users/mingjiezhang/learning/5339/assignment1/data/external/osm_chargers.json",
+      "cache_sha256": "50cd43fff488b1b3e576ad4cbd93c6d049780b3f8084f8e3313ef45fa17d9f20",
+      "external_dc_sites": 533
+    }
+  },
+  "status_counts": {
+    "review_unresolved": 217,
+    "matched": 216
+  },
+  "extended_address_match_records": 1,
+  "limitations": [
+    "Coordinates are a location proxy, not a verified unique physical-site inventory.",
+    "Heuristic matches require spot checks; unresolved and ambiguous records remain unaugmented.",
+    "External snapshots are current retrievals, not reconstructed December 2025 observations.",
+    "Raw prices may include time windows and surcharges; missing price does not mean free.",
+    "No operator-wide contact details, assumed connector types or inferred prices count.",
+    "OSM way/relation centres can differ from actual charger coordinates."
+  ],
+  "run_at_utc": "2026-09-21T05:33:38.548429+00:00",
+  "input_sha256": "b4b7393d2e3ab415279eb8121603cc9ce65d4fe888f1bbca8ef86f3c77b99dbb"
+}

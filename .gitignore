@@ -26,20 +26,12 @@ env/
 # Jupyter notebooks
 .ipynb_checkpoints/
 
-# Generated DuckDB databases and write-ahead logs
-*.duckdb
+# DuckDB write-ahead logs (the .duckdb file itself is a deliverable)
 *.duckdb.wal
 *.db.wal
 
-# Downloaded and generated data. Keep small documentation/placeholders if added.
-data/raw/**
-data/interim/
-data/processed/
-data/external/
-!data/**/.gitkeep
-!data/**/README.md
-
-# Download archives
+# Data files are tracked so the repository matches the Canvas submission.
+# The ABS zip is excluded because its extracted shapefile is tracked.
 *.zip
 
 # Logs and temporary files
