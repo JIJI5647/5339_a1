@@ -28,14 +28,14 @@ CREATE TABLE sa4_regions (
 );
 
 CREATE TABLE ev_chargers (
-    OBJECTID BIGINT,
     Station_name VARCHAR,
     Station_address VARCHAR NOT NULL,
     Operator VARCHAR NOT NULL,
     Number_of_plugs INTEGER NOT NULL CHECK (Number_of_plugs >= 0),
     Charger_Type VARCHAR NOT NULL
         CHECK (upper(trim(Charger_Type)) IN ('AC', 'DC', 'UPCOMING')),
-    Charger_rating VARCHAR NOT NULL,
+    -- NULL where the source gave "AC" instead of a power rating.
+    Charger_rating VARCHAR,
     Latitude DOUBLE NOT NULL CHECK (Latitude BETWEEN -44 AND -10),
     Longitude DOUBLE NOT NULL CHECK (Longitude BETWEEN 112 AND 154),
     LGANAME VARCHAR,

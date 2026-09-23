@@ -205,8 +205,6 @@ def main(argv: list[str] | None = None) -> int:
             INSERT INTO ev_chargers BY NAME
             WITH typed AS (
                 SELECT * REPLACE (
-                    CAST(CAST(OBJECTID AS DOUBLE) AS BIGINT)
-                        AS OBJECTID,
                     CAST(Number_of_plugs AS INTEGER)
                         AS Number_of_plugs,
                     CAST(Latitude AS DOUBLE)

@@ -106,7 +106,7 @@ replacing the previous successful database. Close any open connection to
 |---|---|---|
 | 01 | Downloads the December 2025 NSW EV charger dataset from Transport for NSW | `data/raw/ev_20251216.csv` |
 | 02 | Downloads and extracts the ABS ASGS Edition 4 SA4 boundaries (GDA2020) | `data/raw/SA4_2026_AUST_SHP_GDA2020/` |
-| 03 | Converts coordinates to numbers, drops rows with missing or out-of-Australia coordinates, trims text, removes exact duplicates | `data/processed/ev_clean.csv` |
+| 03 | Validates coordinates, trims text, standardises address format, operator names and rating units, fills missing postcodes from addresses, merges 7 duplicate rows at identical coordinates and drops `OBJECTID` (rules are documented in the script) | `data/processed/ev_clean.csv` |
 | 04 | Spatially joins each charger to the SA4 region containing it; unmatched points within 10 m of a region are assigned to the nearest one | `data/processed/ev_with_sa4.csv` |
 | 05 | Matches DC chargers to external charger sites and adds plug types, pricing text, access type and bay count | `data/external/` (see below) |
 | 06 | Creates the schema in `sql/schema.sql`, validates the inputs and loads the data into DuckDB | `db/ev_chargers.duckdb` |

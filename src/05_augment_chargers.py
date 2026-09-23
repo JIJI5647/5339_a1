@@ -112,7 +112,7 @@ def load_ocm(cache_file, refresh=False):
         raise RuntimeError(
             "OCM_API_KEY is not set and no usable cache was selected. "
             "Register an application at https://openchargemap.org/site/profile/applications "
-            "and set $env:OCM_API_KEY in PowerShell. See docs/05_augmentation_guide.md."
+            "and set OCM_API_KEY in .env (see the API key section of README.md)."
         )
     retry = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504],
                   allowed_methods=["GET"], respect_retry_after_header=True)
@@ -612,6 +612,15 @@ def augment_sources(ev, sources):
     return out, pd.concat(audits, ignore_index=True), pd.concat(matches, ignore_index=True), summary
 
 
+def project_relative(path):
+    """Record paths relative to the project so the summary is portable."""
+    path = Path(path).resolve()
+    try:
+        return path.relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        return str(path)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Match DC chargers to site-level external attributes.")
     parser.add_argument("--input", type=Path, default=PROJECT_ROOT / "data/processed/ev_with_sa4.csv")
@@ -652,7 +661,7 @@ def main(argv=None):
     for name, payload in payloads.items():
         info = summary["sources"][name]
         info["retrieved_at_utc"] = payload["retrieved_at_utc"]
-        info["cache_file"] = str(cache_paths[name])
+        info["cache_file"] = project_relative(cache_paths[name])
         info["cache_sha256"] = hashlib.sha256(cache_paths[name].read_bytes()).hexdigest()
         info["external_dc_sites"] = len(sources[name])
     args.output_dir.mkdir(parents=True, exist_ok=True)
