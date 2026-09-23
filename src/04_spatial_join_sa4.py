@@ -156,6 +156,11 @@ print("Original EV rows:", len(ev))
 print("Final joined rows:", len(joined))
 print("Remaining unmatched:", remaining_unmatched)
 
+if remaining_unmatched:
+    raise ValueError(
+        f"{remaining_unmatched} records still have no SA4 assignment."
+    )
+
 
 # --------------------------------------------------
 # Save result
