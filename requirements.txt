@@ -4,7 +4,7 @@
 requests>=2.31
 urllib3>=2.0
 
-# Tabular data processing (03-06)
+# Tabular data processing (03-05)
 pandas>=2.0
 
 # Spatial join with ABS SA4 boundaries (04)
@@ -14,7 +14,7 @@ pyproj>=3.6
 pyogrio>=0.7
 
 # Database (06)
-duckdb>=1.0
+duckdb>=1.5,<1.6
 
 # Exploratory notebook (notebooks/)
 jupyter

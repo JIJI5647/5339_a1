@@ -1,4 +1,3 @@
-# TODO (Task 3): fetch external attributes and match to chargers. Placeholder only.
 import argparse
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
@@ -40,6 +39,7 @@ OPERATOR_ALIASES = {
     "nrmaelectric": "nrma", "nrma": "nrma",
 }
 ADDED_ATTRIBUTES = ["external_dc_plug_types", "external_usage_cost_text", "external_access_type", "external_bay_count"]
+ALL_SOURCES = ("evie", "ampol", "ocm", "osm")
 
 
 def text(value):
@@ -567,6 +567,21 @@ def augment_sources(ev, sources):
             out.at[idx, "matched_sources"] = f"{previous}; {name}" if previous else name
     if out is None:
         raise ValueError("At least one external source is required.")
+
+    # Keep the step 05 -> step 06 interface stable even when a subset of
+    # external sources is selected (for example, --ocm-only).
+    source_columns = []
+    for name in ALL_SOURCES:
+        status_column = f"{name}_match_status"
+        augmented_column = f"{name}_augmented"
+        source_columns.extend([status_column, augmented_column])
+        if status_column not in out.columns:
+            out[status_column] = "not_run"
+        if augmented_column not in out.columns:
+            out[augmented_column] = False
+    base_columns = [column for column in out.columns if column not in source_columns]
+    out = out[base_columns + source_columns]
+
     dc = out["Charger_Type"].astype("string").str.strip().str.upper().eq("DC").fillna(False)
     out.loc[dc & ~out["augmented"], "augmentation_status"] = "review_unresolved"
     groups = out.loc[dc].groupby("dc_location_key")["augmented"].any()
@@ -664,4 +679,3 @@ if __name__ == "__main__":
     except (OSError, ValueError, RuntimeError, requests.RequestException) as exc:
         print(f"Step 05 failed: {exc}", file=sys.stderr)
         raise SystemExit(1)
-

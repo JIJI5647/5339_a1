@@ -49,6 +49,10 @@ The external snapshots are included in `data/external/`, so step 05 runs
 offline without a key. A key is needed only to re-download them with
 `--refresh`.
 
+Step 06 does not require an API key. On its first run, however, DuckDB may
+need network access once to install the version-matched Spatial extension.
+Later runs load the locally installed extension.
+
 To use a key, register a free application at
 <https://openchargemap.org/site/profile/applications>, then:
 
@@ -79,7 +83,22 @@ Options for step 05:
 |---|---|
 | (none) | Use the cached snapshots in `data/external/` if present, otherwise download them |
 | `--refresh` | Re-download all four external sources (requires `OCM_API_KEY`) |
-| `--ocm-only` | Use Open Charge Map only |
+| `--ocm-only` | Use Open Charge Map only; columns for sources not run are retained with `not_run`/`False` values so the result remains loadable by step 06 |
+
+Options for step 06:
+
+| Option | Default |
+|---|---|
+| `--input` | `data/external/ev_augmented.csv` |
+| `--summary` | `data/external/augmentation_summary.json` |
+| `--sa4` | `data/raw/SA4_2026_AUST_SHP_GDA2020/SA4_2026_AUST_GDA2020.shp` |
+| `--schema` | `sql/schema.sql` |
+| `--database` | `db/ev_chargers.duckdb` |
+
+Step 06 validates the CSV structure and summary counts, loads SA4 polygons and
+charger point geometries, and builds the new database separately before
+replacing the previous successful database. Close any open connection to
+`db/ev_chargers.duckdb` before rebuilding it, especially on Windows.
 
 ## Pipeline steps and outputs
 
@@ -90,7 +109,12 @@ Options for step 05:
 | 03 | Converts coordinates to numbers, drops rows with missing or out-of-Australia coordinates, trims text, removes exact duplicates | `data/processed/ev_clean.csv` |
 | 04 | Spatially joins each charger to the SA4 region containing it; unmatched points within 10 m of a region are assigned to the nearest one | `data/processed/ev_with_sa4.csv` |
 | 05 | Matches DC chargers to external charger sites and adds plug types, pricing text, access type and bay count | `data/external/` (see below) |
-| 06 | Creates the schema in `sql/schema.sql` and loads the data into DuckDB | `db/` |
+| 06 | Creates the schema in `sql/schema.sql`, validates the inputs and loads the data into DuckDB | `db/ev_chargers.duckdb` |
+
+The database contains the `sa4_regions`, `ev_chargers` and `load_manifest`
+tables, plus the `dc_chargers`, `augmented_dc_chargers` and
+`unresolved_dc_chargers` views. Run the schema through step 06 so that the
+Spatial extension is installed when necessary before `sql/schema.sql` loads it.
 
 ### Step 05 outputs (`data/external/`)
 
